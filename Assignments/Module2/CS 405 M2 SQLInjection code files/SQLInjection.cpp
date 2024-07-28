@@ -1,5 +1,4 @@
 // SQLInjection.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
 
 #include <algorithm>
 #include <iostream>
@@ -177,8 +176,6 @@ void run_queries(sqlite3* db)
 
 }
 
-// You can change main by adding stuff to it, but all of the existing code must remain, and be in the
-// in the order called, and with none of this existing code placed into conditional statements
 int main()
 {
   // initialize random seed:

@@ -18,8 +18,6 @@ int main()
     // Use std::cin.getline to safely read input with a specified limit
     std::cin.getline(user_input, Max_Input);
 
-    
-
     // Check if the input was too long and caused an overflow
     if (std::cin.fail() && !std::cin.eof()) {
         std::cin.clear(); // Clear the error flag set by cin
